@@ -31,9 +31,12 @@ h6 {
   /* выше установили ограничения для секции */
 }
 
-.logo_place_header {
+.logo {
   height: 32px;
   width: 228px;
+}
+
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -315,11 +318,6 @@ h6 {
   flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.logo_place_footer {
-  height: 32px;
-  width: 228px;
 }
 
 .footer__author {
